@@ -32,4 +32,4 @@ def reset_pattern(pattern, string):
     """ resets pattern to a list of characters in string """
     pattern.clear()
     for letter in string:
-        list.append(letter)
+        pattern.append(letter)
